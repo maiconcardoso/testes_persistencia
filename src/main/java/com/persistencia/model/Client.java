@@ -57,4 +57,9 @@ public class Client implements java.io.Serializable {
 		return this.phone;
 	}
 	
+	@Override
+	public String toString() {
+		return "[Id: " + this.id + " Name: " + this.name + " Email: " + this.email + " Telefone: " + this.phone + "]\n";
+	}
+	
 }
