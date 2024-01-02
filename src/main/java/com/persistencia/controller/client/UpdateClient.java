@@ -8,7 +8,7 @@ import com.persistencia.model.Client;
 public class UpdateClient {
 	
 	public static void main(String[] args) throws SQLException, ClassNotFoundException {
-		Client client = new Client(1, "Bilbo Bolseiro", "bilbodocondado@gmail.com", "(44) 3046-1005");
+		Client client = new Client(3, "Sam Wise Gand", "samamigodefrodo@gmail.com", "(44) 3047-1006");
 		ClientDao clientDao = new ClientDao();
 		clientDao.update(client);
 	}

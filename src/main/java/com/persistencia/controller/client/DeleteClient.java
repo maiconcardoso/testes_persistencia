@@ -9,7 +9,7 @@ public class DeleteClient {
 	
 	public static void main(String[] args) throws SQLException, ClassNotFoundException {
 		Client client = new Client();
-		client.setId(1);
+		client.setId(4);
 		ClientDao clientDao = new ClientDao();
 		clientDao.delete(client);
 	}
