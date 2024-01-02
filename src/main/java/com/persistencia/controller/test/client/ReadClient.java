@@ -1,4 +1,4 @@
-package com.persistencia.controller.client;
+package com.persistencia.controller.test.client;
 
 import com.persistencia.dao.ClientDao;
 import com.persistencia.model.Client;
