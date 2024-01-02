@@ -25,8 +25,6 @@ public class ConnectionDatabase {
 		} catch(SQLException e) {
 			Logger.getLogger(e.getMessage());
 			return null;
-		} finally {
-			connection.close();
-		}
+		} 
 	}
 }

@@ -29,6 +29,8 @@ public class ClientDao {
 		} catch(SQLException e) {
 			System.err.println(e.getMessage());
 			return false;
+		} finally {
+			con.close();
 		}
 	}
 	
@@ -52,6 +54,8 @@ public class ClientDao {
 		} catch(SQLException e) {
 			System.err.println(e.getMessage());
 			return null;
+		} finally {
+			con.close();
 		}
 	}
 	
@@ -70,6 +74,8 @@ public class ClientDao {
 		} catch(SQLException e) {
 			System.err.println(e.getMessage());
 			return false;
+		} finally {
+			con.close();
 		}
 	}
 	
@@ -85,6 +91,8 @@ public class ClientDao {
 		} catch(SQLException e) {
 			System.err.println(e.getMessage());
 			return false;
+		} finally {
+			con.close();
 		}
 	}
 }
